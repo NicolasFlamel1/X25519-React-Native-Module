@@ -121,7 +121,7 @@ RCT_EXPORT_METHOD(publicKeyFromEd25519PublicKey:(nonnull NSString *)ed25519Publi
 
 // Shared secret key from secret key and public key
 RCT_EXPORT_METHOD(sharedSecretKeyFromSecretKeyAndPublicKey:(nonnull NSString *)secretKey
-	withPublicKey(nonnull NSString *)publicKey
+	withPublicKey:(nonnull NSString *)publicKey
 	withResolver:(RCTPromiseResolveBlock)resolve
 	withReject:(RCTPromiseRejectBlock)reject)
 {
