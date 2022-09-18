@@ -5,7 +5,7 @@
 namespace X25519 {
 
 	// Header files
-	#include "../X25519-WASM-Wrapper-master/main.cpp"
+	#include "../X25519-NPM-Package-master/main.cpp"
 }
 
 using namespace std;

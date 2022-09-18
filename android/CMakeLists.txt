@@ -7,7 +7,7 @@ add_library(X25519React
             SHARED
             ../cpp/x25519-react.cpp
             cpp-adapter.cpp
-            ../X25519-WASM-Wrapper-master/crypto_hash_sha512.c
+            ../X25519-NPM-Package-master/crypto_hash_sha512.c
             ../supercop-20220213/crypto_scalarmult/curve25519/ref10/base.c
             ../supercop-20220213/crypto_scalarmult/curve25519/ref10/fe_0.c
             ../supercop-20220213/crypto_scalarmult/curve25519/ref10/fe_1.c
@@ -27,7 +27,7 @@ add_library(X25519React
 include_directories(
             ../cpp
             ../
-            ../X25519-WASM-Wrapper-master
+            ../X25519-NPM-Package-master
             ../supercop-20220213/crypto_scalarmult/curve25519/ref10
 )
 
