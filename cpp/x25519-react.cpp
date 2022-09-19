@@ -1,14 +1,15 @@
 // Header files
 #include "./x25519-react.h"
 
+using namespace std;
+
+
 // X25519 namespace
 namespace X25519 {
 
 	// Header files
 	#include "../X25519-NPM-Package-master/main.cpp"
 }
-
-using namespace std;
 
 
 // Supporting function implementation
